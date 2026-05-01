@@ -3,53 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="/css/contact_us/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <title>Contact Us - FutureLift</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact_us/contact.css">
 </head>
 <body>
+    <nav>
+        <a href="../home.html" class="logo">
+            <img src="../images/home/logo.png" alt="FutureLift Logo">
+            FutureLift
+        </a>
+        <div class="nav-links">
+            <a href="../home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html" class="active">Contact Us</a>
+            <a href="ourteam.html">Our Team</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <div class="auth-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="login.html" class="signup-btn">Register</a>
+        </div>
+    </nav>
+
+    <section class="hero-contact">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Contact us today!</p>
+        </div>
+    </section>
+
     <section class="contact-section">
         <div class="contact-container">
-            
-            
             <div class="contact-info">
-                <div class="h2"><h2>Contact Us</h2></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <h2>Contact Information</h2>
+                <p>Have questions? We're here to help. Reach out to us through any of the channels below.</p>
                 
                 <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Address</h3>
-                    <p><br>Haldia Institute of Technology, HIT Road, Haldia, West Bengal, 721657</p>
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Address</h3>
+                        <p>Haldia Institute of Technology<br>HIT Road, Haldia<br>West Bengal, 721657</p>
+                    </div>
                 </div>
+
                 <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <h3>Phone</h3>
-                    <p><br>+91 8114 509 412 <br>
-                        +91 7519 760 037<br>
-                        +91 8709 908 484 
-                    </p>
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Phone</h3>
+                        <p>+91 8114 509 412<br>+91 7519 760 037<br>+91 8709 908 484</p>
+                    </div>
                 </div>
+
                 <div class="info-item">
-                    <i class="fas fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p><br>jobportal@gmail.com</p>
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>jobportal@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
 
             <div class="contact-form">
-                <h3>Send Message</h3>
+                <h2>Send Us a Message</h2>
                 <form action="#" method="POST">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <textarea name="message" placeholder="Type your Message..." required></textarea>
-                    <button type="submit">Send</button>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Type your Message..." rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Font Awesome for Icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <footer class="footer">
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="../home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="ourteam.html">Our Team</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright ©2024; Designed by <strong>Hit Students</strong></p>
+        </div>
+    </footer>
 </body>
 </html>
